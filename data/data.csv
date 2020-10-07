@@ -1,0 +1,6 @@
+title,paragraphs
+
+"Starboard isn't responding","['If the bot is not responding, check to make sure it can see the channel you are in and that it is online. You can also try mentioning the bot to see if that works']"
+"Starboard's Prefix","['The prefix for starboard is \'sb!\' or it\'s mention.']"
+"Am I allowed to ping mods?","['Please do not ping moderators unless it is an emergency. Simply post your question and someone will respond.']"
+"About Starboard","['Starboard is a Discord starboard bot. Starboards are kind of like democratic pins. A user can vote to have a message displayed on a channel by reacting with an emoji, usually a star. A Starboard is a great way to archive funny messages.']"
