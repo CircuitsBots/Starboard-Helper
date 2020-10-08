@@ -28,4 +28,4 @@ Starboard is an advanced and feature-rich discord starboard, allowing users to v
 
 How do I use Starboard How do I setup starboard How do I use the bot How do I setup the bot
 Using Starboard
-Please look at the quick-start guide [here](https://github.com/CircuitsBots/Starboard/blob/master/README.md#quick-setup).
+Please look at the quick-start guide [here](https://github.com/CircuitsBots/Starboard/blob/master/README.md).
