@@ -5,7 +5,6 @@ Please do not simply say "I Need Help", but instead just ask your question.
 The default prefixes for Starboard are `sb!` and it's mention
 You can view it's current prefix by mentioning it, and you can change the prefix by running `prefix add <prefix>` and `prefix remove <prefix>`.
 
-
 **__Starboard Won't Respond__**
 If starboard is not responding, there are a couple of possible reasons:
  - The bot is offline
@@ -15,3 +14,6 @@ Try mentioning the bot, and if that doesn't work let us know.
 
 **__What does Starboard do__**
 Starboard is an advanced and feature-rich discord starboard, allowing users to vote to pin a message by reacting with :star:.
+
+**__How to use Starboard__**
+Please look at the quick-star guide which can be found [here](https://discord.com/api/oauth2/authorize?client_id=763415261012557885&permissions=0&scope=bot)
