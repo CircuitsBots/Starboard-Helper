@@ -17,7 +17,7 @@ There can be multiple reasons for this, please check the following:
  - self-starring (starring your own messages) doesn't work if the setting is disabled
  - if botsOnStarboard is False, bot messages can't be starred
  - check to make sure requiredStars is what you think it is
-You can see settings for a specific starboard by running `[p]settings <starboard>`, and you can change them by running `[p]<setting> <starboard> <value>`
+You can see settings for a specific starboard by running `[p]settings <starboard>`, and you can change them by running `[p]<setting> <starboard> <value>`.
 
 What does Starboard do
 Starboard is an advanced and feature-rich discord starboard, allowing users to vote to pin a message by reacting with :star:.
