@@ -1,6 +1,7 @@
 import nltk_ai
 import dotenv
 import os
+import discord
 
 from discord.ext import commands
 from pretty_help import PrettyHelp
@@ -24,10 +25,21 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot:
         return
-    response = nltk_ai.response(message.content)
-    if response is None:
+    _response = nltk_ai.response(message.content)
+    if _response is None:
         return
-    await message.channel.send(response)
+    title, response = _response.split('\n', 1)
+    color = discord.Color.green()
+    embed = discord.Embed(
+        title=title,
+        description=response,
+        color=color
+    )
+    embed.set_footer(
+        icon_url=message.author.avatar_url,
+        text=message.author
+    )
+    await message.channel.send(embed=embed)
 
 
 if __name__ == "__main__":

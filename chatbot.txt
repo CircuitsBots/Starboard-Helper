@@ -15,5 +15,5 @@ Try mentioning the bot, and if that doesn't work let us know.
 **__What does Starboard do__**
 Starboard is an advanced and feature-rich discord starboard, allowing users to vote to pin a message by reacting with :star:.
 
-**__How to use Starboard__**
-Please look at the quick-star guide which can be found [here](https://discord.com/api/oauth2/authorize?client_id=763415261012557885&permissions=0&scope=bot)
+**__How do I use Starboard__**
+Please look at the quick-start guide [here](https://github.com/CircuitsBots/Starboard/blob/master/README.md#quick-setup).
