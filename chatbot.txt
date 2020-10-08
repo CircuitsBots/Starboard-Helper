@@ -6,11 +6,11 @@ The default prefixes for Starboard are `sb!` and it's mention
 You can view it's current prefix by mentioning it, and you can change the prefix by running `prefix add <prefix>` and `prefix remove <prefix>`.
 
 Starboard Isn't Working
-If starboard isn't responding, there are a couple of possible reasons:
+If starboard isn't working, there are a couple of possible reasons:
  - The bot is offline
  - The bot can't see the channel you are messaging in
  - There is a bug
-Try mentioning the bot, and if that doesn't work let us know.
+Try mentioning starboard, and if that doesn't work let us know.
 
 Starboard isn't sending messages to the starboard
 There can be multiple reasons for this, please check the following:
