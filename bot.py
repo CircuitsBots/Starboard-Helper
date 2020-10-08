@@ -1,4 +1,4 @@
-import ai
+import nltk_ai
 import dotenv
 import os
 
@@ -24,8 +24,8 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot:
         return
-    response = ai.get_answer(message.content)
-    if response.confidence < 3:
+    response = nltk_ai.response(message.content)
+    if response is None:
         return
     await message.channel.send(message.author.mention + '\n\n' + str(response))
 
