@@ -28,7 +28,7 @@ async def on_message(message):
     _response = nltk_ai.response(message.content)
     if _response is None:
         return
-    title, response = _response.split('\n', 1)
+    _, title, response = _response.split('\n', 2)
     color = discord.Color.green()
     embed = discord.Embed(
         title=title,
