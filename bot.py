@@ -27,7 +27,7 @@ async def on_message(message):
     response = nltk_ai.response(message.content)
     if response is None:
         return
-    await message.channel.send(message.author.mention + '\n\n' + str(response))
+    await message.channel.send(response)
 
 
 if __name__ == "__main__":
