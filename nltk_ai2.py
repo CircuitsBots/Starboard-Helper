@@ -51,7 +51,8 @@ def simplify(sentence):
     return output if output is not None else None
 
 
-def filter_punct(sentence):
+def filter_punct(sentence: str):
+    sentence = sentence.casefold()
     punc = '''!()-[]{};:'"\\,<>./?@#$%^&*_~’'''
 
     for char in sentence:
@@ -61,8 +62,8 @@ def filter_punct(sentence):
 
 
 def confidence(_X, _Y):
-    X = filter_punct(_X.lower())
-    Y = filter_punct(_Y.lower())
+    X = filter_punct(_X)
+    Y = filter_punct(_Y)
     # tokenization
     X_list = word_tokenize(X)
     Y_list = word_tokenize(Y)
