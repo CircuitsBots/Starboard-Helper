@@ -52,7 +52,7 @@ def simplify(sentence):
 
 
 def filter_punct(sentence):
-    punc = '''!()-[]{};:'"\\,<>./?@#$%^&*_~'''
+    punc = '''!()-[]{};:'"\\,<>./?@#$%^&*_~’'''
 
     for char in sentence:
         if char in punc:
