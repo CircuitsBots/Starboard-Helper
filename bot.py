@@ -41,7 +41,7 @@ async def on_message(message):
     #)
     #await message.channel.send(embed=embed)
     response, conf = ai.get_response(message.content)
-    if conf > 0.8:
+    if conf > 0.5:
         await message.channel.send(response)
 
 
