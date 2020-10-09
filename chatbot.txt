@@ -29,3 +29,8 @@ Starboard is an advanced and feature-rich discord starboard, allowing users to v
 How do I use Starboard How do I setup starboard How do I use the bot How do I setup the bot How do I set starboard up how do I set the bot up
 Using Starboard
 Please look at the quick-start guide [here](https://github.com/CircuitsBots/Starboard/blob/master/README.md).
+
+Can I ping mods
+Pinging Moderators
+If you need help, just post your question and wait
+Only ping mods if it is an emergency.
