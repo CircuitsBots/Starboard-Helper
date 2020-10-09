@@ -70,7 +70,7 @@ def response(user_response):
     flat = vals.flatten()
     flat.sort()
     req_tfidf = flat[-2]
-    if req_tfidf < 0.35:
+    if req_tfidf < 0.5:
         return None
     else:
         return _sent_tokens[idx]

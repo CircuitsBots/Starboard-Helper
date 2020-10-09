@@ -1,4 +1,4 @@
-import nltk_ai
+import nltk_ai2 as ai
 import dotenv
 import os
 import discord
@@ -25,21 +25,24 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot:
         return
-    _response = nltk_ai.response(message.content)
-    if _response is None:
-        return
-    _, title, response = _response.split('\n', 2)
-    color = discord.Color.green()
-    embed = discord.Embed(
-        title=title,
-        description=response,
-        color=color
-    )
-    embed.set_footer(
-        icon_url=message.author.avatar_url,
-        text=message.author
-    )
-    await message.channel.send(embed=embed)
+    #_response = nltk_ai.response(message.content)
+    #if _response is None:
+    #    return
+    #_, title, response = _response.split('\n', 2)
+    #color = discord.Color.green()
+    #embed = discord.Embed(
+    #    title=title,
+    #    description=response,
+    #    color=color
+    #)
+    #embed.set_footer(
+    #    icon_url=message.author.avatar_url,
+    #    text=message.author
+    #)
+    #await message.channel.send(embed=embed)
+    response, conf = ai.get_response(message.content)
+    if conf > 0.8:
+        await message.channel.send(response)
 
 
 if __name__ == "__main__":
