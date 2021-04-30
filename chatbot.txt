@@ -6,7 +6,7 @@ If you've already posted a question, please be patient.
 What is the prefix How do I change the prefix What are the prefixes
 Starboards Prefix
 The default prefixes for Starboard are `sb!` and it's mention
-You can view it's current prefix by mentioning it, and you can change the prefix by running `prefix add <prefix>` and `prefix remove <prefix>`.
+You can view its current prefix by mentioning it, and you can change the prefix by running `prefix add <prefix>` and `prefix remove <prefix>`.
 
 Starboard Isn't Working The bot isn't working Starboard won't respond The bot won't respond
 Problems With Starboard
@@ -16,8 +16,8 @@ If starboard isn't responding, there are a couple of possible reasons:
  - There is a bug
 Try mentioning starboard, and if that doesn't work let us know
 
-If starboard isn't sending messsages to the starboard, there can also be multiple reasons for this, please check the following:
- - self-starring (starring your own messages) doesn't work if the setting is disabled
+If starboard isn't sending messages to the starboard, there can also be multiple reasons for this, please check the following:
+ - self-starring (starring your messages) doesn't work if the setting is disabled
  - if botsOnStarboard is False, bot messages can't be starred
  - check to make sure requiredStars is what you think it is
 You can see settings for a specific starboard by running `[p]settings <starboard>`, and you can change them by running `[p]<setting> <starboard> <value>`.
@@ -26,7 +26,7 @@ What does starboard do What can starboard do What can this bot do
 About Starboard
 Starboard is an advanced and feature-rich discord starboard, allowing users to vote to pin a message by reacting with :star:.
 
-How do I use Starboard How do I setup starboard How do I use the bot How do I setup the bot How do I set starboard up how do I set the bot up
+How do I use Starboard How do I setup starboard How do I use the bot How do I set up the bot How do I set starboard up how do I set the bot up
 Using Starboard
 Please look at the quick-start guide [here](https://github.com/CircuitsBots/Starboard/blob/master/README.md).
 
@@ -35,7 +35,7 @@ Pinging Moderators
 If you need help, just post your question and wait
 Only ping mods if it is an emergency.
 
-How do I summon the bot How do I invite the bot How do I summon Starboard how do I add Starboard do my server
+How do I summon the bot How do I invite the bot How do I summon Starboard how do I add Starboard to my server
 Inviting Starboard
 You can invite the bot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=700796664276844612&permissions=388160&scope=bot)
 Please note that you must have `MANAGE SERVER` permission to invite bots.
